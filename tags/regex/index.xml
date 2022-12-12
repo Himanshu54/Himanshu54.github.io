@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>regex on Himanshu Gusain</title>
+    <link>/tags/regex/</link>
+    <description>Recent content in regex on Himanshu Gusain</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 Dec 2022 19:44:55 +0530</lastBuildDate><atom:link href="/tags/regex/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Simpler Regex Guide</title>
+      <link>/posts/simpler-regex-guide/</link>
+      <pubDate>Mon, 12 Dec 2022 19:44:55 +0530</pubDate>
+      
+      <guid>/posts/simpler-regex-guide/</guid>
+      <description>Did you ever find yourself repeating keystrokes when editing a long list of words, for example you want to replace that semicolon ; with a colon : And you think there should be a cooler way to do that OR you know the way but you never remember the old fabled regex when needed. Here is a list of simple regex example that you can easily tweak to get things done faster.</description>
+    </item>
+    
+  </channel>
+</rss>
