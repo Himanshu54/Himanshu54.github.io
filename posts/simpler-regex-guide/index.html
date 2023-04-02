@@ -54,7 +54,7 @@
           ·
         </span>
         <span>
-          167 words
+          151 words
         </span>
         <span class="split">
           ·
@@ -76,27 +76,26 @@ Here is a list of simple regex example that you can easily tweak to get things d
 Most IDEs support find and replace with regex support and you will be surprised how easy this makes those tasks. Some basics first.</p>
 <p>Using the tools</p>
 <ol>
-<li>Find and replace
+<li>
+<p>Find and replace</p>
 <ol>
-<li>Using IDE Find &amp; Replace with regex  <img src="/images/vscode_find_replace.gif"/></li>
-<li>Vim Substitue <img src="/images/vim_substitute.gif"/></li>
-<li>Sed</li>
+<li>Using IDE Find &amp; Replace with regex</br><img src="/images/vscode_find_replace.gif"/></li>
+<li>Vim Substitue <code>:help substitue</code><br><img src="/images/vim_substitute.gif"/></li>
+<li>Sed <a href="https://www.gnu.org/software/sed/manual/sed.html" target="_blank" rel="noopener">gnu sed manual</a>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>✗ <span style="color:#a2f">echo</span> <span style="color:#b44">&#34;hello world?&#34;</span> | sed <span style="color:#b44">&#39;s/?/!/g&#39;</span>
+</span></span><span style="display:flex;"><span>hello world!
+</span></span></code></pre></div></li>
 </ol>
 </li>
-<li>Start of the string : <code>^</code> in regex means start of Line ( ie. begining of text and next to a new line) ``````</li>
-</ol>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"></code></pre></div><pre><code>1.  1st character
-2.  1st word
-3. Start to \&lt;delimiter\&gt;
-</code></pre>
-<ol start="3">
-<li>End of string</li>
-<li>whitespace</li>
-<li>alphabet, digit , escape</li>
-<li>word , sentences</li>
-<li>capture groups and backreference</li>
-<li>optional</li>
-<li>flags</li>
+<li>
+<p>Regex matching.</br>
+Learn Regex pattern matching from web.</br>
+I&rsquo;ll leave this link here for quick ref <a href="https://learn.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-language-quick-reference" target="_blank" rel="noopener">regular-expression-language-quick-reference</a></p>
+</li>
+<li>
+<p>Capture Groups</br>
+<a href="https://www.google.com/search?q=find&#43;and&#43;replace&#43;capture&#43;groups&amp;oq=find&#43;and&#43;replace&#43;capture&#43;groups" target="_blank" rel="noopener">Google Search</a></p>
+</li>
 </ol>
 
     </div>
@@ -174,7 +173,7 @@ Most IDEs support find and replace with regex support and you will be surprised 
     <div class="copyright">
     
        © Copyright 
-       2022 
+       2023 
        <span class="split">
         <svg fill="#bbbbbb" width="15" height="15" version="1.1" id="heart-15" xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" viewBox="0 0 15 15">
   <path d="M13.91,6.75c-1.17,2.25-4.3,5.31-6.07,6.94c-0.1903,0.1718-0.4797,0.1718-0.67,0C5.39,12.06,2.26,9,1.09,6.75&#xA;&#x9;C-1.48,1.8,5-1.5,7.5,3.45C10-1.5,16.48,1.8,13.91,6.75z"/>
