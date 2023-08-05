@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Himanshu Gusain</title>
-    <link>/</link>
-    <description>Recent content on Himanshu Gusain</description>
+    <title>.dotfile on Himanshu Gusain</title>
+    <link>/tags/.dotfile/</link>
+    <description>Recent content in .dotfile on Himanshu Gusain</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Aug 2023 16:02:11 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Aug 2023 16:02:11 +0000</lastBuildDate><atom:link href="/tags/.dotfile/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>nvim hardmode in init.lua</title>
       <link>/posts/nvim-hardmode-in-init.lua/</link>
@@ -15,15 +15,6 @@
       <guid>/posts/nvim-hardmode-in-init.lua/</guid>
       <description>In my quest to learn vim, I stumbled upon a very excellent advise to disable arrow keys and force yourself to use only h,j,k,l movements. Being a former counter-strike enthusiast I know that this method works as I have forced me to learn better keybinds earlier too.
 And since I am also looking into how to configure nvim properly whilest understanding what I put into my configurations, I decided not to blindly add vim-hardmode plugin.</description>
-    </item>
-    
-    <item>
-      <title>Simpler Regex Guide</title>
-      <link>/posts/simpler-regex-guide/</link>
-      <pubDate>Mon, 12 Dec 2022 19:44:55 +0530</pubDate>
-      
-      <guid>/posts/simpler-regex-guide/</guid>
-      <description>Did you ever find yourself repeating keystrokes when editing a long list of words, for example you want to replace that semicolon ; with a colon : And you think there should be a cooler way to do that OR you know the way but you never remember the old fabled regex when needed. Here is a list of simple regex example that you can easily tweak to get things done faster.</description>
     </item>
     
   </channel>

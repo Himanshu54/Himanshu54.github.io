@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Himanshu Gusain</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Dec 2022 19:44:55 +0530</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Aug 2023 16:02:11 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>nvim hardmode in init.lua</title>
+      <link>/posts/nvim-hardmode-in-init.lua/</link>
+      <pubDate>Sat, 05 Aug 2023 16:02:11 +0000</pubDate>
+      
+      <guid>/posts/nvim-hardmode-in-init.lua/</guid>
+      <description>In my quest to learn vim, I stumbled upon a very excellent advise to disable arrow keys and force yourself to use only h,j,k,l movements. Being a former counter-strike enthusiast I know that this method works as I have forced me to learn better keybinds earlier too.
+And since I am also looking into how to configure nvim properly whilest understanding what I put into my configurations, I decided not to blindly add vim-hardmode plugin.</description>
+    </item>
+    
     <item>
       <title>Simpler Regex Guide</title>
       <link>/posts/simpler-regex-guide/</link>

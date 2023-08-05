@@ -2,22 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/</loc>
-    <lastmod>2022-12-12T19:44:55+05:30</lastmod>
+    <loc>/tags/.dotfile/</loc>
+    <lastmod>2023-08-05T16:02:11+00:00</lastmod>
   </url><url>
-    <loc>/tags/ide/</loc>
-    <lastmod>2022-12-12T19:44:55+05:30</lastmod>
+    <loc>/</loc>
+    <lastmod>2023-08-05T16:02:11+00:00</lastmod>
+  </url><url>
+    <loc>/tags/lua/</loc>
+    <lastmod>2023-08-05T16:02:11+00:00</lastmod>
+  </url><url>
+    <loc>/tags/nvim/</loc>
+    <lastmod>2023-08-05T16:02:11+00:00</lastmod>
+  </url><url>
+    <loc>/posts/nvim-hardmode-in-init.lua/</loc>
+    <lastmod>2023-08-05T16:02:11+00:00</lastmod>
   </url><url>
     <loc>/posts/</loc>
+    <lastmod>2023-08-05T16:02:11+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2023-08-05T16:02:11+00:00</lastmod>
+  </url><url>
+    <loc>/tags/vim/</loc>
+    <lastmod>2023-08-05T16:02:11+00:00</lastmod>
+  </url><url>
+    <loc>/tags/ide/</loc>
     <lastmod>2022-12-12T19:44:55+05:30</lastmod>
   </url><url>
     <loc>/tags/regex/</loc>
     <lastmod>2022-12-12T19:44:55+05:30</lastmod>
   </url><url>
     <loc>/posts/simpler-regex-guide/</loc>
-    <lastmod>2022-12-12T19:44:55+05:30</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2022-12-12T19:44:55+05:30</lastmod>
   </url><url>
     <loc>/about/</loc>
