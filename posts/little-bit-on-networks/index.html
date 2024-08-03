@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <title>Himanshu Gusain</title>
+    <title>Little bit on networks | Himanshu Gusain</title>
 
     <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">    
 <meta name="viewport" content="width=device-width,minimum-scale=1">
-<meta name="description" content="My Blog">
+<meta name="description" content="Simple c code to do a dns lookup.
+#include &lt;sys/types.h&gt;#include &lt;sys/socket.h&gt;#include &lt;netdb.h&gt;#include &lt;stdio.h&gt;#include &lt;netinet/in.h&gt;#include &lt;arpa/inet.h&gt; int main() { struct hostent *h = gethostbyname(&#34;www.google.com&#34;); printf(&#34;%s\n&#34;, inet_ntoa(*(struct in_addr *) h-&gt;h_addr)); } This snippet was created to check wheather the underlying dns module was serving the same IP, overloading the server. Instead of google.com we obviously use an internal domain. The point being proved here is that, gethostbyname randomize which IP it will return.">
 <meta name="generator" content="Hugo 0.92.2" />
 
 
@@ -24,17 +25,14 @@
 
 
 
-  
-    <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Himanshu Gusain" />
-    <link href="/index.xml" rel="feed" type="application/rss+xml" title="Himanshu Gusain" />
-  
-
 
 
   </head>
 
   <body>
     <nav class="navigation">
+	
+		<a href="/"> <span class="arrow">←</span>Home</a>
 	
 	<a href="/posts">Archive</a>
 	<a href="/tags">Tags</a>
@@ -48,77 +46,66 @@
 
     <main class="main">
       
-<header class="profile">
-    
-        <img class="avatar" alt="avatar" src="/images/avatar.png" />
-    
 
-    <h1>Himanshu Gusain</h1>
-    
-    
-      <h2>Senior Engineer, Site Reliablity</h2>
-    
-</header>
+<section id="single">
+    <h1 class="title">Little bit on networks</h1>
 
-<div id="list-page">
+    <div class="tip">
+        <time datetime="2023-08-05 16:58:58 &#43;0000 UTC">Aug 5, 2023</time>
+        <span class="split">
+          ·
+        </span>
+        <span>
+          71 words
+        </span>
+        <span class="split">
+          ·
+        </span>
+        <span>
+          1 minute read
+        </span>
+    </div>
+
     
-    
-    
-        
-        
-        <section class="item">
-          <div>
-            <h1 class="title"><a href='/posts/little-bit-on-networks/'>Little bit on networks</a></h1>
-            <div class ="date">
-                <time datetime="2023-08-05 16:58:58 &#43;0000 UTC">Aug 5, 2023</time>  
-            </div>
-          </div>
-
-          
-              <div class="summary">Simple c code to do a dns lookup.
-#include &lt;sys/types.h&gt;#include &lt;sys/socket.h&gt;#include &lt;netdb.h&gt;#include &lt;stdio.h&gt;#include &lt;netinet/in.h&gt;#include &lt;arpa/inet.h&gt; int main() { struct hostent *h = gethostbyname(&#34;www.google.com&#34;); printf(&#34;%s\n&#34;, inet_ntoa(*(struct in_addr *) h-&gt;h_addr)); } This snippet was created to check wheather the underlying dns module was serving the same IP, overloading the server. Instead of google.com we obviously use an internal domain. The point being proved here is that, gethostbyname randomize which IP it will return.</div>
-          
-
-        </section>
-    
-        
-        
-        <section class="item">
-          <div>
-            <h1 class="title"><a href='/posts/nvim-hardmode-in-init.lua/'>nvim hardmode in init.lua</a></h1>
-            <div class ="date">
-                <time datetime="2023-08-05 16:02:11 &#43;0000 UTC">Aug 5, 2023</time>  
-            </div>
-          </div>
-
-          
-              <div class="summary">In my quest to learn vim, I stumbled upon a very excellent advise to disable arrow keys and force yourself to use only h,j,k,l movements. Being a former counter-strike enthusiast I know that this method works as I have forced me to learn better keybinds earlier too.
-And since I am also looking into how to configure nvim properly whilest understanding what I put into my configurations, I decided not to blindly add vim-hardmode plugin.</div>
-          
-
-        </section>
-    
-        
-        
-        <section class="item">
-          <div>
-            <h1 class="title"><a href='/posts/simpler-regex-guide/'>Simpler Regex Guide</a></h1>
-            <div class ="date">
-                <time datetime="2022-12-12 19:44:55 &#43;0530 &#43;0530">Dec 12, 2022</time>  
-            </div>
-          </div>
-
-          
-              <div class="summary">Did you ever find yourself repeating keystrokes when editing a long list of words, for example you want to replace that semicolon ; with a colon : And you think there should be a cooler way to do that OR you know the way but you never remember the old fabled regex when needed. Here is a list of simple regex example that you can easily tweak to get things done faster.</div>
-          
-
-        </section>
-    
-
     
 
 
-</div>
+    <div class="content">
+      <p>Simple c code to do a dns lookup.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cpp" data-lang="cpp"><span style="color:#080">#include</span> <span style="color:#080">&lt;sys/types.h&gt;</span><span style="color:#080">
+</span><span style="color:#080">#include</span> <span style="color:#080">&lt;sys/socket.h&gt;</span><span style="color:#080">
+</span><span style="color:#080">#include</span> <span style="color:#080">&lt;netdb.h&gt;</span><span style="color:#080">
+</span><span style="color:#080">#include</span> <span style="color:#080">&lt;stdio.h&gt;</span><span style="color:#080">
+</span><span style="color:#080">#include</span> <span style="color:#080">&lt;netinet/in.h&gt;</span><span style="color:#080">
+</span><span style="color:#080">#include</span> <span style="color:#080">&lt;arpa/inet.h&gt;</span><span style="color:#080">
+</span><span style="color:#080"></span>
+
+<span style="color:#0b0;font-weight:bold">int</span> <span style="color:#00a000">main</span>()
+{
+
+  <span style="color:#a2f;font-weight:bold">struct</span> <span style="color:#00f">hostent</span> <span style="color:#666">*</span>h <span style="color:#666">=</span> gethostbyname(<span style="color:#b44">&#34;www.google.com&#34;</span>);
+
+  printf(<span style="color:#b44">&#34;%s</span><span style="color:#b62;font-weight:bold">\n</span><span style="color:#b44">&#34;</span>, inet_ntoa(<span style="color:#666">*</span>(<span style="color:#a2f;font-weight:bold">struct</span> <span style="color:#00f">in_addr</span> <span style="color:#666">*</span>) h<span style="color:#666">-&gt;</span>h_addr));
+}
+</code></pre></div><p>This snippet was created to check wheather the underlying dns module was serving the same IP, overloading the server. Instead of <code>google.com</code> we obviously use an internal domain.
+The point being proved here is that, <code>gethostbyname</code> randomize which IP it will return.</p>
+
+    </div>
+
+    
+        <div class="tags">
+            
+                <a href="tags/cpp">cpp</a>
+            
+                <a href="tags/networks">networks</a>
+            
+        </div>
+    
+    
+    
+
+</section>
+
 
     </main>
     

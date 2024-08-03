@@ -2,10 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/tags/.dotfile/</loc>
-    <lastmod>2023-08-05T16:02:11+00:00</lastmod>
+    <loc>/tags/cpp/</loc>
+    <lastmod>2023-08-05T16:58:58+00:00</lastmod>
   </url><url>
     <loc>/</loc>
+    <lastmod>2023-08-05T16:58:58+00:00</lastmod>
+  </url><url>
+    <loc>/posts/little-bit-on-networks/</loc>
+    <lastmod>2023-08-05T16:58:58+00:00</lastmod>
+  </url><url>
+    <loc>/tags/networks/</loc>
+    <lastmod>2023-08-05T16:58:58+00:00</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2023-08-05T16:58:58+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2023-08-05T16:58:58+00:00</lastmod>
+  </url><url>
+    <loc>/tags/.dotfile/</loc>
     <lastmod>2023-08-05T16:02:11+00:00</lastmod>
   </url><url>
     <loc>/tags/lua/</loc>
@@ -15,12 +30,6 @@
     <lastmod>2023-08-05T16:02:11+00:00</lastmod>
   </url><url>
     <loc>/posts/nvim-hardmode-in-init.lua/</loc>
-    <lastmod>2023-08-05T16:02:11+00:00</lastmod>
-  </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2023-08-05T16:02:11+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2023-08-05T16:02:11+00:00</lastmod>
   </url><url>
     <loc>/tags/vim/</loc>

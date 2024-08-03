@@ -6,7 +6,17 @@
     <description>Recent content on Himanshu Gusain</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Aug 2023 16:02:11 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Aug 2023 16:58:58 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Little bit on networks</title>
+      <link>/posts/little-bit-on-networks/</link>
+      <pubDate>Sat, 05 Aug 2023 16:58:58 +0000</pubDate>
+      
+      <guid>/posts/little-bit-on-networks/</guid>
+      <description>Simple c code to do a dns lookup.
+#include &amp;lt;sys/types.h&amp;gt;#include &amp;lt;sys/socket.h&amp;gt;#include &amp;lt;netdb.h&amp;gt;#include &amp;lt;stdio.h&amp;gt;#include &amp;lt;netinet/in.h&amp;gt;#include &amp;lt;arpa/inet.h&amp;gt; int main() { struct hostent *h = gethostbyname(&amp;#34;www.google.com&amp;#34;); printf(&amp;#34;%s\n&amp;#34;, inet_ntoa(*(struct in_addr *) h-&amp;gt;h_addr)); } This snippet was created to check wheather the underlying dns module was serving the same IP, overloading the server. Instead of google.com we obviously use an internal domain. The point being proved here is that, gethostbyname randomize which IP it will return.</description>
+    </item>
+    
     <item>
       <title>nvim hardmode in init.lua</title>
       <link>/posts/nvim-hardmode-in-init.lua/</link>
